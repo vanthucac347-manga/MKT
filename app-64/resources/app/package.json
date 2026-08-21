@@ -1,0 +1,42 @@
+{
+  "name": "mkt-client",
+  "appId": "com.mkt-client.app",
+  "appleId": "com.phanmemmkt.mkt-client",
+  "productName": "MKT Client",
+  "description": "MKT Client - Hệ thống quản lý Phần mềm MKT",
+  "main": "./out/main/index.js",
+  "version": "5.3.1",
+  "lastUpdated": "21/10/2025",
+  "license": "MIT",
+  "author": {
+    "name": "MKT SOFTWARE, JSC.",
+    "email": "phanmemmkt.vn@gmail.com"
+  },
+  "homepage": "https://phanmemmkt.vn",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.821.0",
+    "@electron-toolkit/preload": "^3.0.1",
+    "@electron-toolkit/utils": "^3.0.0",
+    "axios": "^1.7.7",
+    "better-sqlite3": "^11.5.0",
+    "electron-updater": "^6.1.7",
+    "fs-extra": "^11.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.46",
+    "node-schedule": "^2.1.1",
+    "open": "^10.1.0",
+    "reflect-metadata": "^0.2.2",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "sudo-prompt": "^9.2.1",
+    "tree-kill-promise": "^3.0.14",
+    "typeorm": "^0.3.20",
+    "typeorm-scoped": "https://github.com/htqxd/typeorm-scoped.git",
+    "unzipper": "^0.12.3",
+    "uuid": "^11.0.3",
+    "winston": "^3.14.2",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
